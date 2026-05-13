@@ -4,7 +4,8 @@ The goal of this repository is not to provide abstract textbook definitions, but
 The first supported languages are:
 - Go
 - Perl
-More languages may be added later.
+- Perl7
+- Java
 ## Repository Structure
 ```text
 .
