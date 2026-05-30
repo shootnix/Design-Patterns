@@ -4,7 +4,7 @@ use PaymentProviderFactory;
 use CheckoutService;
 
 
-my $factory = PaymentProviderFactory->new("stripe");
+my $factory = PaymentProviderFactory->new("paypal");
 my $checkout = CheckoutService->new($factory);
 $checkout->checkout(999);
 $checkout->refund("trx-123");

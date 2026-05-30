@@ -3,7 +3,7 @@ use v5.42;
 use PaymentProviderFactory;
 use CheckoutService;
 
-my $factory = PaymentProviderFactory->create('stripe');
+my $factory = PaymentProviderFactory->create('paypal');
 my $checkout = CheckoutService->new(factory => $factory);
 
 $checkout->checkout(999);
